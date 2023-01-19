@@ -1,16 +1,11 @@
 export default {
-
-  target: 'static',
-  router: {
-    base: '/One-and-Only-Status-saver.githb.io/'
-  },
-
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
-
+  // target: 'static',
+  // router: {
+  //   base: '/One-and-Only-Status-saver-app-web.github.io/'
+  // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'test',
+    title: 'app-web-site',
     htmlAttrs: {
       lang: 'en',
     },
@@ -41,9 +36,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
+    // 'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    // '@nuxtjs/axios',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
